@@ -2,6 +2,6 @@
 .godot/
 /android/
 godot-cpp
-addons/bin
+bin
 build
 *.so
