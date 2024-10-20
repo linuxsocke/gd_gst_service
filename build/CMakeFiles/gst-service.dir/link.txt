@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/libgst-service.a "CMakeFiles/gst-service.dir/src/gst_service/gst_service.cpp.o"
-/usr/bin/ranlib /home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/libgst-service.a

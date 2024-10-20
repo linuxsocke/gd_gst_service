@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o -o /home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service  /home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/libgst-service.a -lgstapp-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 
