@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service
+CMAKE_SOURCE_DIR = /home/avk/Projects/workspace_gd/gd_gst_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build
+CMAKE_BINARY_DIR = /home/avk/Projects/workspace_gd/gd_gst_service/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_gst_service.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/test_gst_service.dir/progress.make
 include CMakeFiles/test_gst_service.dir/flags.make
 
 CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o: CMakeFiles/test_gst_service.dir/flags.make
-CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o: /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/tests/test_gst_service.cpp
+CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o: /home/avk/Projects/workspace_gd/gd_gst_service/tests/test_gst_service.cpp
 CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o: CMakeFiles/test_gst_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o -MF CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o.d -o CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o -c /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/tests/test_gst_service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/avk/Projects/workspace_gd/gd_gst_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o -MF CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o.d -o CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o -c /home/avk/Projects/workspace_gd/gd_gst_service/tests/test_gst_service.cpp
 
 CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/tests/test_gst_service.cpp > CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/avk/Projects/workspace_gd/gd_gst_service/tests/test_gst_service.cpp > CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.i
 
 CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/tests/test_gst_service.cpp -o CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avk/Projects/workspace_gd/gd_gst_service/tests/test_gst_service.cpp -o CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.s
 
 # Object files for target test_gst_service
 test_gst_service_OBJECTS = \
@@ -90,15 +90,15 @@ test_gst_service_OBJECTS = \
 # External object files for target test_gst_service
 test_gst_service_EXTERNAL_OBJECTS =
 
-/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service: CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o
-/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service: CMakeFiles/test_gst_service.dir/build.make
-/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service: /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/bin/x11/libgst-service.a
-/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service: CMakeFiles/test_gst_service.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service"
+/home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service: CMakeFiles/test_gst_service.dir/tests/test_gst_service.cpp.o
+/home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service: CMakeFiles/test_gst_service.dir/build.make
+/home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service: /home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/libgst-service.a
+/home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service: CMakeFiles/test_gst_service.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/avk/Projects/workspace_gd/gd_gst_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_gst_service.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/test_gst_service.dir/build: /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service
+CMakeFiles/test_gst_service.dir/build: /home/avk/Projects/workspace_gd/gd_gst_service/bin/x11/test_gst_service
 .PHONY : CMakeFiles/test_gst_service.dir/build
 
 CMakeFiles/test_gst_service.dir/clean:
@@ -106,6 +106,6 @@ CMakeFiles/test_gst_service.dir/clean:
 .PHONY : CMakeFiles/test_gst_service.dir/clean
 
 CMakeFiles/test_gst_service.dir/depend:
-	cd /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/test_gst_service.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/avk/Projects/workspace_gd/gd_gst_service/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avk/Projects/workspace_gd/gd_gst_service /home/avk/Projects/workspace_gd/gd_gst_service /home/avk/Projects/workspace_gd/gd_gst_service/build /home/avk/Projects/workspace_gd/gd_gst_service/build /home/avk/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/test_gst_service.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_gst_service.dir/depend
 

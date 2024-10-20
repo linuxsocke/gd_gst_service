@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service
+# Install script for directory: /home/avk/Projects/workspace_gd/gd_gst_service
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/avk/Projects/workspace_gd/gd_gst_service/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

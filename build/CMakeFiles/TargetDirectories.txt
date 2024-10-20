@@ -1,5 +1,5 @@
-/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/gst-service.dir
-/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/test_gst_service.dir
-/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/gd-gst-service.dir
-/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/edit_cache.dir
-/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/rebuild_cache.dir
+/home/avk/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/gst-service.dir
+/home/avk/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/test_gst_service.dir
+/home/avk/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/gd-gst-service.dir
+/home/avk/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/edit_cache.dir
+/home/avk/Projects/workspace_gd/gd_gst_service/build/CMakeFiles/rebuild_cache.dir

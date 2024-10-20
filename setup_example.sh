@@ -1,7 +1,7 @@
 #!/bin/bash
 
+    #gstreamer1.0-libav \
 sudo apt install cmake git \
-    gstreamer1.0-libav \
     gstreamer1.0-plugins-bad \
     gstreamer1.0-plugins-base \
     gstreamer1.0-plugins-good \
@@ -10,6 +10,9 @@ sudo apt install cmake git \
     libgstreamer1.0-dev \
     libgstreamer-plugins-base1.0-dev \
     libgstreamer-plugins-good1.0-0 
+if [ $? -ne 0 ]; then
+    exit 1
+fi
 
 if [ ! -d "godot-cpp" ]; then
     git clone https://github.com/godotengine/godot-cpp.git godot-cpp --branch godot-4.3-stable

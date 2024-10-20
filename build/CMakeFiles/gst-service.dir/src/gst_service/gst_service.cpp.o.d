@@ -1,7 +1,7 @@
 CMakeFiles/gst-service.dir/src/gst_service/gst_service.cpp.o: \
- /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/src/gst_service/gst_service.cpp \
+ /home/avk/Projects/workspace_gd/gd_gst_service/src/gst_service/gst_service.cpp \
  /usr/include/stdc-predef.h \
- /mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/include/gd_gst_service/gst_service/gst_service.hpp \
+ /home/avk/Projects/workspace_gd/gd_gst_service/include/gd_gst_service/gst_service/gst_service.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

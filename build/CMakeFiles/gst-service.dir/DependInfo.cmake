@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/0032e22d-a59b-47c8-95c7-1565d20b2df2/Projects/workspace_gd/gd_gst_service/src/gst_service/gst_service.cpp" "CMakeFiles/gst-service.dir/src/gst_service/gst_service.cpp.o" "gcc" "CMakeFiles/gst-service.dir/src/gst_service/gst_service.cpp.o.d"
+  "/home/avk/Projects/workspace_gd/gd_gst_service/src/gst_service/gst_service.cpp" "CMakeFiles/gst-service.dir/src/gst_service/gst_service.cpp.o" "gcc" "CMakeFiles/gst-service.dir/src/gst_service/gst_service.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
