@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://c3myl0s4xf8tn"]
+
+[ext_resource type="Script" path="res://scripts/stream_panel.gd" id="1_o240b"]
+[ext_resource type="Texture2D" uid="uid://bjt7np822rsrn" path="res://assets/start_icon_100x100.png" id="2_1xd2h"]
+[ext_resource type="Texture2D" uid="uid://b14hu7oov8hc5" path="res://assets/loading_100x100.png" id="3_egl4o"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_11pn4"]
+
+[node name="StreamPanel" type="Panel"]
+custom_minimum_size = Vector2(480, 567)
+offset_top = -1.0
+offset_right = 480.0
+offset_bottom = 566.0
+script = ExtResource("1_o240b")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 2
+offset_right = 480.0
+offset_bottom = 567.0
+size_flags_horizontal = 3
+
+[node name="StreamTextureRect" type="TextureRect" parent="CenterContainer"]
+custom_minimum_size = Vector2(480, 567)
+layout_mode = 2
+texture = SubResource("ImageTexture_11pn4")
+expand_mode = 4
+
+[node name="StartingTextureRect" type="TextureRect" parent="CenterContainer/StreamTextureRect"]
+layout_mode = 2
+offset_left = 190.0
+offset_top = 233.0
+offset_right = 290.0
+offset_bottom = 333.0
+pivot_offset = Vector2(50, 50)
+texture = ExtResource("3_egl4o")
+
+[node name="StreamButton" type="Button" parent="CenterContainer"]
+custom_minimum_size = Vector2(480, 567)
+layout_mode = 2
+icon = ExtResource("2_1xd2h")
+icon_alignment = 1
