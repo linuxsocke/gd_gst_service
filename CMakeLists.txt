@@ -48,7 +48,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
 set(GODOT_COMPILE_FLAGS )
 set(GODOT_LINKER_FLAGS )
 
-add_compile_options(-Wall -Wextra -Wpedantic -Werror)
+add_compile_options(-Wall -Wextra -Wpedantic -Werror -Wno-error=switch-enum)
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "MSVC")
 	# using Visual Studio C++
@@ -256,6 +256,7 @@ if(DEFINED STATIC_GSTREAMER)
 else()
 	##################################################################################
 	### SHARED TEST
+	find_package(Threads REQUIRED)
 	find_package(PkgConfig REQUIRED)
 	pkg_search_module(GLIB REQUIRED glib-2.0)
 	pkg_check_modules(GOBJECT REQUIRED gobject-2.0)
@@ -264,6 +265,7 @@ else()
 		gstreamer-app-1.0
 		gstreamer-plugins-base-1.0
 	)
+	list(APPEND ${GSTREAMER_LIBRARIES} Threads::Threads)
 	##################################################################################
 endif()
 ##################################################################################
