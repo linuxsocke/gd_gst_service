@@ -1,6 +1,5 @@
-[gd_scene load_steps=3 format=3 uid="uid://d2msdrcuf5t7n"]
+[gd_scene load_steps=2 format=3 uid="uid://d2msdrcuf5t7n"]
 
-[ext_resource type="Script" path="res://scripts/gd_gst_example.gd" id="1_sqmho"]
 [ext_resource type="PackedScene" uid="uid://c3myl0s4xf8tn" path="res://scenes/stream_panel.tscn" id="1_toux4"]
 
 [node name="GdGstExample" type="Control"]
@@ -18,7 +17,6 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("1_sqmho")
 
 [node name="StreamPanel" parent="." instance=ExtResource("1_toux4")]
 layout_mode = 1
