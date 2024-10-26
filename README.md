@@ -1,6 +1,16 @@
 ## GDGstService
 
+Gstreamer extension for godot.
+
+### Demo Preview
+
+![Demo Preview](demo.gif)
+
 ### Dependencies:
+
+If you compile the extension with dynamic gstream libs (E.g. `./build_gd_gst.sh  
+--godot-cpp-path=./godot-cpp./build_gd_gst.sh  --godot-cpp-path=./godot-cpp` ) the following dependencies are required:
+
   - cmake 
   - git
   - gstreamer1.0-libav
@@ -14,11 +24,11 @@
   - libgstreamer-plugins-good1.0-0
 
 ### Run example
-Before importing the gd_stream_example you need to execute 
+Before importing the example project.godot you need to build and install the extension by executing
 
     ./setup_example.sh
 
-in order to build and install the required gd_extension.
+Then run a corresponding srt stream.
 
 Option 1: Run a stream using gst-launch and a video device:
 
@@ -37,6 +47,6 @@ Import the example project `gd_gst_example.project`. Run in debug.
 ### Custom setup
 Install the dependencies. Build the extentension 
     
-    ./build_gd_gst.sh  --godot-cpp-path=path/to/godot-cpp (version 4.3 tested) 
+    ./build_gd_gst.sh  --godot-cpp-path=path/to/godot-cpp (version 4.3 tested on Ubuntu 20.04) 
 
 and install it in your custom environment.

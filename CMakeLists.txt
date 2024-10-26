@@ -265,7 +265,7 @@ else()
 		gstreamer-app-1.0
 		gstreamer-plugins-base-1.0
 	)
-	list(APPEND ${GSTREAMER_LIBRARIES} Threads::Threads)
+	list(APPEND GSTREAMER_LIBRARIES Threads::Threads)
 	##################################################################################
 endif()
 ##################################################################################
