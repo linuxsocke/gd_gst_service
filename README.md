@@ -1,6 +1,6 @@
 ## GDGstService
 
-Gstreamer extension for godot. GStreamer can be used in order to receive camera feeds from remote devices.
+Gstreamer extension for godot. The GStreamer framework can be used in order to receive camera feeds from remote devices.
 
 ### Demo Preview
 
