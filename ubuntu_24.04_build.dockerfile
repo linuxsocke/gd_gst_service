@@ -1,6 +1,7 @@
 FROM ubuntu:24.04
 
-RUN export DEBIAN_FRONTEND=noninteractive && apt update && apt install -y \
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt update && apt install -y \
     automake autopoint wget libtool libblkid-dev \
     cmake git libdrm-dev build-essential python3-pip python3-venv \
     flex bison nasm libunwind-dev libselinux1-dev \
