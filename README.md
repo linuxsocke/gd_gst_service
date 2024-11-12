@@ -1,6 +1,6 @@
 ## GDGstService
 
-Gstreamer extension for godot.
+Gstreamer extension for godot. The GStreamer framework can be used in order to receive camera feeds from remote devices.
 
 ### Demo Preview
 
@@ -9,7 +9,7 @@ Gstreamer extension for godot.
 ### Dependencies:
 
 If you compile the extension with dynamic gstream libs (E.g. `./build_gd_gst.sh  
---godot-cpp-path=./godot-cpp./build_gd_gst.sh  --godot-cpp-path=./godot-cpp` ) the following dependencies are required:
+--godot-cpp-path=./godot-cpp` ) the following dependencies are required:
 
   - cmake 
   - git
@@ -42,7 +42,7 @@ Option 2: Alternatively use gst-launch and a video file src:
         x264enc bitrate=4000 tune=zerolatency speed-preset=superfast ! video/x-h264, profile=baseline ! \
         mpegtsmux ! srtsink uri=srt://:8888 latency=100 
 
-Import the example project `gd_gst_example.project`. Run in debug.
+Import the example `project.godot` and run in debug.
 
 ### Custom setup
 Install the dependencies. Build the extentension 
